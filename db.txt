@@ -1,0 +1,10 @@
+// Database name: cars
+
+id                      |   NUMBER  |   SMALLINT(6)    |   NOT_NULL    |   PRIMARY_KEY |   AUTOINCREMENT   |
+make                    |   STRING  |   TINYTEXT       |   NOT_NULL    |               |                   |
+model                   |   STRING  |   TINYTEXT       |   NOT_NULL    |               |                   |
+year                    |   DATE    |   YEAR           |   NOT_NULL    |               |                   |
+displacement            |   NUMBER  |   DECIMAL(2, 1)  |   NOT_NULL    |               |                   |
+km                      |   NUMBER  |   SMALLINT(6)    |   NOT_NULL    |               |                   |
+previous_owners         |   NUMBER  |   TINYINT(2)     |   NOT_NULL    |               |                   |
+price                   |   NUMBER  |   DECIMAL(6,0)   |   NOT_NULL    |               |                   |
